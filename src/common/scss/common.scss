@@ -1,0 +1,15 @@
+@mixin font-dpr($font-size) {
+    font-size: $font-size;
+    [data-dpr="2"] & {
+      font-size: $font-size * 2;
+    }
+    [data-dpr="3"] & {
+      font-size: $font-size * 3;
+    }
+  }
+
+
+/*边框颜色*/
+$mc: rgb(246,160,58) !default;
+/*边框颜色*/
+$bd: rgb(210,216,221) !default;
